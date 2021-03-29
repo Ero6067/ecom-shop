@@ -64,7 +64,7 @@ export const Rating = ({ value, text, color }) => {
 					}
 				/>
 			</span>
-			<span className='ml-2'>{text && text}</span>
+			<div className='ml-2 '>{text && text}</div>
 		</div>
 	);
 };
