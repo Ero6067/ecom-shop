@@ -15,7 +15,7 @@ const reducer = combineReducers({
   userLogin: userLoginReducer,
 })
 
-const cartItemsFromStorage = localStorage.getItem('cartITems')
+const cartItemsFromStorage = localStorage.getItem('cartItems')
   ? JSON.parse(localStorage.getItem('cartItems'))
   : []
 
